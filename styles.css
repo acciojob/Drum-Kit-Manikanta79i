@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.keys {
+  display: flex;
+  justify-content: center;
+}
+
+.key {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: #ddd;
+  border: 1px solid #888;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.key:hover {
+  background-color: #aaa;
+}
